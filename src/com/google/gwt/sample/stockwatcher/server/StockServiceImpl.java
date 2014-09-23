@@ -75,7 +75,7 @@ StockService {
   }
 
   private void checkLoggedIn() throws NotLoggedInException {
-    if (getUser() == null) {
+    if (getClass() == null) {
       throw new NotLoggedInException("Not logged in.");
     }
   }

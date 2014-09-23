@@ -75,7 +75,7 @@ StockService {
   }
 
   private void checkLoggedIn() throws NotLoggedInException {
-    if (getUser() == null) {
+    if (getBagOfCats() == null) {
       throw new NotLoggedInException("Not logged in.");
     }
   }
